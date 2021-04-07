@@ -23,14 +23,14 @@ nav{
   display: flex;
   height: 80px;
   width: 100%;
-  background: linear-gradient(to right, white, rgb(201, 56, 169));
+  background: linear-gradient(to right, white, rgb(163, 80, 105));
   align-items: center;
   justify-content: space-between;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
 }
 nav .logo{
-  color: rgb(187, 36, 111);
+  color: rgb(22, 8, 75);
   font-size: 35px;
   font-weight: 600;
 }
@@ -115,10 +115,11 @@ input[type="checkbox"]{
 
   /* NAVBAR CSS ENDS */
 
+
+
   /* BACKGROUND IMAGE CSS */
 
   .bg-image{
-    /* background-image: url("/images/bg.png"); */
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
