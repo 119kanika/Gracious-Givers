@@ -215,6 +215,7 @@ hr {
 .wrapper1{
 	width:100%;
 	/* background-color:rgb(248, 227, 235); */
+  margin-top: 5%;
 	min-height:70vh;
 	overflow:hidden;
 }
@@ -260,9 +261,9 @@ hr {
 		text-align: center;
 	}
 	.image-section1{
-		width:100%;
+		width: 50%;
 		display: block;
-		margin:50px auto;
+		margin-left: 120px;
 	}
 	.image-section1 img{
 		width:100%
@@ -317,7 +318,11 @@ hr {
 		margin:50px auto;
 	}
 	.image-section12 img{
-		width:100%
+		/* width:100% */
+    width: 50%;
+		display: block;
+		margin-left: 120px;
+    margin-bottom: 10%;
 	}
 }
 
