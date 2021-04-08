@@ -147,6 +147,7 @@ input[type="checkbox"]{
 
 /* ABOUT SECTION */
 h2{
+  /* position: relative; */
   text-align: center;
   padding-top: 10%;
   font-size: 4rem;
@@ -156,24 +157,48 @@ hr {
     background: #100852;
     margin: 0 30% 3% 30%;
 }
+.container{
+  position: relative;
+}
+.container .image1 {
+  position: absolute;
+  z-index: -10000;
+  bottom: 50%;
+  right: 60%;
+  opacity: 0.3;
+}
 
-.image {
-  left: 6%;
-  width: 30%;
-  top: 50%;
+.container .image2 {
+  position: absolute;
+  z-index: -10000;
+  left: 60%;
+  opacity: 0.3;
+  top: 40%;
 }
 .text {
-  background: linear-gradient(0deg, #9d9ba3ee 30%, #fdf9fce8 100%);
+  /* background: linear-gradient(0deg, #e5e2f0ee 30%, white 100%); */
   font-family: 'Satisfy', cursive;
-  z-index: 1000;
-  color: rgb(8, 8, 8);
+  z-index: 1;
+  color: rgb(15, 1, 13);
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  padding: 5% 10% 0 10%;
+  padding: 5% 10% 5% 10%;
 }
 .btn{
   position: absolute;
+}
+@media screen and (max-width: 1000px){
+  .container .image1{
+    left: 7%;
+    width: 50%;
+  }
+  .container .image2{
+    left: 45%;
+    top: 50%;
+    width: 50%;
+  }
+
 }
 
 
