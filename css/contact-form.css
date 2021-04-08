@@ -5,8 +5,8 @@ form {
 }
 @media screen and (max-width: 1000px){
     form{
-        width: 470px;
-        margin: 50px ;
+        width: 270px;
+        margin-left: 23% ;
     }
 }
 
