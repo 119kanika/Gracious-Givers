@@ -373,14 +373,16 @@ hr {
 
 
 .image3{
-  /* position: absolute; */
+  position: relative;
   top: 310%;
+  left: 30%;
   bottom: -10px;
-  display: inline-block;
+  /* display: inline-block; */
   max-width: 100%;
 }
 @media screen and (max-width: 1000px){
   .image3{
     top: 290%;
+    left: 0%;
   }
 }
