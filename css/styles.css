@@ -161,6 +161,7 @@ hr {
   position: relative;
 }
 .container .image1 {
+  width: 40%;
   position: absolute;
   z-index: -10000;
   bottom: 50%;
@@ -169,6 +170,7 @@ hr {
 }
 
 .container .image2 {
+  width: 40%;
   position: absolute;
   z-index: -10000;
   left: 45%;
@@ -196,8 +198,8 @@ hr {
     font-size: 1.6rem;
   }
   .container .image1{
-    left: 7%;
-    top: 2px;
+    left: 5%;
+    /* top: 0%; */
     width: 70%;
   }
   .container .image2{
