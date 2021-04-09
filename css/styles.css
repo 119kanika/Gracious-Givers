@@ -194,7 +194,7 @@ hr {
     font-size: 2.5rem;
   }
   .text{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .container .image1{
     left: 7%;
@@ -214,9 +214,8 @@ hr {
 
 .wrapper1{
 	width:100%;
-	/* background-color:rgb(248, 227, 235); */
   margin-top: 7%;
-	min-height:70vh;
+	min-height:50vh;
 	overflow:hidden;
 }
 .section1{
@@ -253,6 +252,9 @@ hr {
   font-weight: 300;
 }
 @media screen and (max-width:768px){
+  .wrapper1{
+    margin-top: 0;
+  }
 	.left-section1{
 		width:100%;
 		padding-right:0px;
@@ -260,10 +262,13 @@ hr {
 	.content1 h2{
 		text-align: center;
 	}
+  .content1 p{
+    font-size: 1.3rem;
+  }
 	.image-section1{
 		width: 50%;
 		display: block;
-		margin-left: 120px;
+		margin-left: 100px;
 	}
 	.image-section1 img{
 		width:100%
@@ -312,6 +317,9 @@ hr {
 	.content12 h2{
 		text-align: center;
 	}
+  .content12 p{
+    font-size: 1.3rem;
+  }
 	.image-section12{
 		width:100%;
 		display: block;
@@ -321,8 +329,8 @@ hr {
 		/* width:100% */
     width: 50%;
 		display: block;
-		margin-left: 120px;
-    margin-bottom: 10%;
+		margin-left: 100px;
+    margin-bottom: 2%;
 	}
 }
 
