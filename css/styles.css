@@ -175,13 +175,12 @@ hr {
   opacity: 0.6;
   top: 20%;
 }
-.text {
+.container .text {
   /* background: linear-gradient(0deg, #e5e2f0ee 30%, white 100%); */
   font-family: 'Satisfy', cursive;
   z-index: 1;
   color: rgb(15, 1, 13);
   font-size: 2rem;
-  font-weight: 300;
   text-align: center;
   padding: 5% 10% 5% 10%;
 }
@@ -193,9 +192,8 @@ hr {
   h2{
     font-size: 2.5rem;
   }
-  .text{
-    font-weight: 100;
-    font-size: 0.6rem;
+  .container .text{
+    font-size: 1.6rem;
   }
   .container .image1{
     left: 7%;
