@@ -7,9 +7,12 @@
   --font-sans: "Rubik", sans-serif;
   --font-serif: "Cardo", serif;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body{
   height: 100%;
+  background-image: linear-gradient(rgb(252, 230, 234), white);
 }
 * {
 box-sizing: border-box;
