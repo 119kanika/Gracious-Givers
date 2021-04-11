@@ -3,6 +3,7 @@ body{
   scroll-behavior: smooth;
   background-color: #0a0908;
 }
+
 ul.header {
   list-style-type: none;
   margin: 0;
@@ -92,7 +93,10 @@ form.example::after {
 }
 
 
-
+.container{
+  display: flex;
+  flex-direction: column;
+}
 
 
 .card {
@@ -102,7 +106,15 @@ form.example::after {
   margin: auto;
   text-align: center;
   font-family: arial;
-  background-color: white;
+  background-color: rgb(253, 249, 253);
+}
+@media screen and (max-width:1000px) {
+  .container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* max-width: 200px; */
+  }
 }
 
 .title {
@@ -123,7 +135,7 @@ button {
   font-size: 18px;
 }
 
-a.social{
+.card .social{
   text-decoration: none;
   font-size: 22px;
   color: black;
