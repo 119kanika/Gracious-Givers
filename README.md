@@ -6,10 +6,10 @@ Secondly, We are working on Donating school supplies which will help poor studen
 and finally we have a separate page for You to share your experiences and stories with us where you helped someone in need. 
 
 
-## :label: TEAM MEMBERS
+<!-- ## :label: TEAM MEMBERS
    - [Kanika Mahindroo](https://github.com/119kanika)
    - [Rompy Roshni](https://github.com/rompyroshni31)
-   - [Srishti Mahajan](https://github.com/charu-878)
+   - [Srishti Mahajan](https://github.com/charu-878) -->
 
 ## :label: TECHNOLOGIES USED
 ```
